@@ -8,12 +8,14 @@
     "build": "webpack --config webpack.config.js"
   },
   "devDependencies": {
-    "webpack": "^2.6.1"
+    "webpack": "^4.17.0",
+    "webpack-command": "^0.4.1"
   },
   "dependencies": {
-    "moment": "2.18.1",
-    "react": "15.4.2",
-    "react-datetime": "2.8.10",
-    "react-dom": "15.4.2"
+    "@cljs-oss/module-deps": "^1.1.1",
+    "moment": "^2.22.2",
+    "react": "16.4.2",
+    "react-dom": "16.4.2",
+    "react-datetime": "^2.15.0"
   }
 }
